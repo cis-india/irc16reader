@@ -1,10 +1,10 @@
 {
-	"title": "Binder",
+	"title": "IRC16 Reader",
 	"logo" : "logo.png",
-	"about" : "Link some sites together.",
+	"about" : "Documents from the Internet Researchsers' Conference 2016",
 	"menu" : {
-		"About" : "https://docs.google.com/document/d/1L8uIUdE58AsP-jnHD_H6df3T2DNFsegImPidkTwpYLw/",
-		"Download" : "https://docs.google.com/document/d/1aKVEphpLq3UUBkhoStJVhmkiOWRQmALAj-bphbk-KTU/",
+		"IRC16" : "http://cis-india.org/raw/irc16",
+		"#AFCinema2.0" : "https://public.etherpad-mozilla.org/p/IRC16-AFCinema2.0",
 		"Binder In-Use" : "https://docs.google.com/document/d/1q9957u3P0SfFzwTzaWlu1ZeJ4FEZ0H4MF-cJBSm4Y-s/",
 		"Google Slides" : "https://docs.google.com/presentation/d/1gdX17MpgdyhiAQKTPehMWEYf914cYF4GtuY7m1jD7Qo/embed?start=true&loop=true&delayms=5000",
 		"Tumblr" : "http://cempontraoryartdaily.tumblr.com/",

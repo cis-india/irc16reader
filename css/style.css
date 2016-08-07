@@ -87,10 +87,10 @@ body {
 	list-style-type: none;
 }
 
-#navigation li{
-	padding:0;
-	margin:0;
-	width:auto;
+#navigation li {
+	padding: 0;
+	margin-bottom: 10px;
+	width: auto;
 }
 
 #navigation a, div.about {
@@ -101,26 +101,26 @@ body {
 }
 
 #navigation a.active,
-#navigation a:hover {
+#navigation a:hover,
+#navigation a:focus {
       text-decoration: none;
-      color: #000;
-      background-color: #F3FB62;
+      color: #ffff00;
 }
 
 #navigation .current_page_item a {
 }
 
-.about{
+.about {
 	position: fixed;
-	font-family: mono;	
-	font-size: 24px;
+	font-family: "Fira Mono", mono;	
+	font-size: 32px;
 	line-height: 19px;
 	z-index: 100;
-	color: #333;
+	color: #ffff00;
 	z-index: 90;
 	max-width: 277px;
-	right: 145px;
-	top: 155px;
+	right: 170px;
+	top: 160px;
 }
 
 h1 {

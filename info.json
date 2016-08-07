@@ -1,7 +1,7 @@
 {
-	"title": "#IRC16Reader",
+	"title": "IRC16Reader",
 	"logo" : "logo.png",
-	"about" : "#IRC16Reader",
+	"about" : "IRC16Reader",
 	"menu" : {
 		"IRC16" : "irc16.html",
 		"#AFCinema2.0" : "https://public.etherpad-mozilla.org/p/IRC16-AFCinema2.0",

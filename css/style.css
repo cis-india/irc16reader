@@ -19,6 +19,8 @@ body {
 	width: 100%;
 	height: 100%;
 	font-family: "Fira Mono", mono;
+	color: #fff;
+	background-color: #000;
 }
 
 .container {
@@ -55,7 +57,7 @@ body {
 
 #menu a {
       text-decoration: none;
-      color: #333;
+      color: #fff;
       border-bottom: 1px solid;
 }
 
@@ -63,9 +65,9 @@ body {
 #menu a:active,
 #menu a:focus {
       text-decoration: none;
-      color: #333;
+      color: #000;
       background-color: #F3FB62;
-      border-bottom: 1px solid;
+      border-bottom: 1px #000;
 }
 
 #logo {
@@ -140,19 +142,25 @@ h1 {
   	letter-spacing: -.08em;  
 }
 
+p {
+	font-size: 14px;
+	line-height: 20px;
+  
+}
+
 p a {
-      text-decoration: none;
-      color: #333;
-      border-bottom: 1px solid;
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px solid #fff;
 }
 
 p a:hover,
 p a:active,
 p a:focus {
-      text-decoration: none;
-      color: #333;
-      background-color: #F3FB62;
-      border-bottom: 1px solid;
+	text-decoration: none;
+	color: black;
+	background-color: #F3FB62;
+	border-bottom: 1px solid black;
 }
 
 

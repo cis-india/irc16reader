@@ -44,8 +44,8 @@ body {
 
 #menu {
 	position: fixed;
-	left: 10px;
-	top: 40%;
+	right: 100px;
+	top: 220px;
 	color: white;
 	letter-spacing: .01em;
 	z-index:10;
@@ -102,13 +102,11 @@ body {
 
 #navigation li a.active,
 #navigation li a:hover,
-#navigation li a:focus {
+#navigation li a:focus,
+#navigation .current_page_item a {
       text-decoration: none;
       color: #222;
       background-color: #ffff00;
-}
-
-#navigation .current_page_item a {
 }
 
 .about {

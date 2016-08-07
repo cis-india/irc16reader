@@ -100,6 +100,10 @@ body {
 	padding: 10px;
 }
 
+#navigation a {
+	color: #ffff00;
+}
+
 #navigation li a:hover,
 #navigation li a:focus,
 #navigation li a:active {

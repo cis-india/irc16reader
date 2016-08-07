@@ -1,15 +1,23 @@
 {
-	"title": "IRC16 Reader",
+	"title": "#IRC16Reader",
 	"logo" : "logo.png",
-	"about" : "Documents from the Internet Researchsers' Conference 2016",
+	"about" : "#IRC16Reader",
 	"menu" : {
-		"IRC16" : "http://cis-india.org/raw/irc16",
+		"IRC16" : "irc16.html",
 		"#AFCinema2.0" : "https://public.etherpad-mozilla.org/p/IRC16-AFCinema2.0",
-		"Binder In-Use" : "https://docs.google.com/document/d/1q9957u3P0SfFzwTzaWlu1ZeJ4FEZ0H4MF-cJBSm4Y-s/",
-		"Google Slides" : "https://docs.google.com/presentation/d/1gdX17MpgdyhiAQKTPehMWEYf914cYF4GtuY7m1jD7Qo/embed?start=true&loop=true&delayms=5000",
-		"Tumblr" : "http://cempontraoryartdaily.tumblr.com/",
-		"PDF" : "http://www.nasa.gov/pdf/373665main_NASA-SP-2009-566.pdf",
-		"Youtube" : "https://www.youtube.com/embed/Sdi2S1PHS_s",
-		"Wikipedia" : "https://en.wikipedia.org/wiki/Web_page"
+		"#ArchiveAnarchy" : "https://public.etherpad-mozilla.org/p/IRC16-ArchiveAnarchy",
+		"#DigitalDesires" : "https://public.etherpad-mozilla.org/p/IRC16-DigitalDesires",
+		"#DigitalLiteraciesAtTheMargins" : "https://public.etherpad-mozilla.org/p/IRC16-DigitalLiteraciesAtTheMargins",
+		"#FollowTheMedium" : "https://public.etherpad-mozilla.org/p/IRC16-FollowTheMedium",
+		"#FutureBazaars" : "https://public.etherpad-mozilla.org/p/IRC16-FutureBazaars",
+		"#InternetMovements" : "https://public.etherpad-mozilla.org/p/IRC16-InternetMovements",
+		"#LiterarySpaces" : "https://public.etherpad-mozilla.org/p/IRC16-LiterarySpaces",
+		"#ManyPublicsOfInternet" : "https://public.etherpad-mozilla.org/p/IRC16-ManyPublicsOfInternet",
+		"#MinimalComputing" : "https://public.etherpad-mozilla.org/p/IRC16-MinimalComputing",
+		"#PoliticsOnSocialMedia" : "https://public.etherpad-mozilla.org/p/IRC16-PoliticsOnSocialMedia",
+		"#SpottingData" : "https://public.etherpad-mozilla.org/p/IRC16-SpottingData",
+		"#STSDebates" : "https://public.etherpad-mozilla.org/p/IRC16-STSDebates",
+		"#WebOfGenealogies" : "https://public.etherpad-mozilla.org/p/IRC16-WebOfGenealogies",
+		"#WikiShadows" : "https://public.etherpad-mozilla.org/p/IRC16-WikiShadows"
 	}
 }

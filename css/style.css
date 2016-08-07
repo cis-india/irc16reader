@@ -104,12 +104,12 @@ body {
 #navigation li a:focus {
       text-decoration: none;
       color: #222;
-      border: 1px solid #ffff00;
 }
 
 .about {
 	position: fixed;
 	font-family: "Fira Mono", mono;	
+	font-weight: bold;
 	font-size: 32px;
 	line-height: 19px;
 	z-index: 100;
@@ -172,7 +172,7 @@ h4 a:focus {
 }
 
 .footer {
-	height: 100px;
+	height: 80px;
 }
 
 /* Psuedo mobile styles for wide touch devices */

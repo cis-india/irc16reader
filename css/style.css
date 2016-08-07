@@ -52,22 +52,6 @@ body {
 	padding: 13px;
 	padding-right: 15px;
 	cursor: move;
-	background-color: #eee;
-}
-
-#menu a {
-      text-decoration: none;
-      color: #fff;
-      border-bottom: 1px solid;
-}
-
-#menu a:hover,
-#menu a:active,
-#menu a:focus {
-      text-decoration: none;
-      color: #000;
-      background-color: #F3FB62;
-      border-bottom: 1px #000;
 }
 
 #logo {
@@ -109,20 +93,21 @@ body {
 	width:auto;
 }
 
-#navigation a, div.about{
-	color: #717171;
+#navigation a, div.about {
+	color: #eee;
 	padding: 0;
 	text-decoration: none;
-	padding: 1px;
+	padding: 10px;
 }
-#navigation a.active{
-	color: #000;
+
+#navigation a.active,
+#navigation a:hover {
+      text-decoration: none;
+      color: #000;
+      background-color: #F3FB62;
 }
-#navigation a:hover{
-	color: #000;
-}
+
 #navigation .current_page_item a {
-	color: red;
 }
 
 .about{
@@ -139,16 +124,28 @@ body {
 }
 
 h1 {
-  	letter-spacing: -.08em;  
+  	letter-spacing: -.08em;
+}
+
+h2 {
+	letter-spacing: -.08em;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 16px;
+	color: #fff;
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 20px;
   
 }
 
-p a {
+p a,
+h4 a {
 	text-decoration: none;
 	color: #fff;
 	border-bottom: 1px solid #fff;
@@ -156,13 +153,31 @@ p a {
 
 p a:hover,
 p a:active,
-p a:focus {
+p a:focus,
+h4 a:hover,
+h4 a:active,
+h4 a:focus {
 	text-decoration: none;
 	color: black;
-	background-color: #F3FB62;
+	background-color: #ffff00;
 	border-bottom: 1px solid black;
 }
 
+.content-box {
+	margin-top: 40px;
+	border: 1px solid #ffff00;
+	padding: 0 20px 10px;
+	width: 69%;
+}
+
+.highlight {
+	background-color: #ffff00;
+	color: #000;
+}
+
+.footer {
+	height: 100px;
+}
 
 /* Psuedo mobile styles for wide touch devices */
     .touch-device #menu {

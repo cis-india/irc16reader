@@ -139,23 +139,6 @@ body {
 	color: #ffff00;
 }
 
-#navigation a, div.about {
-	padding: 0;
-	text-decoration: none;
-	padding: 10px;
-}
-
-#navigation a {
-	color: #ffff00;
-}
-
-#navigation li a:hover,
-#navigation li a:focus,
-#navigation li a:active {
-	text-decoration: none;
-	color: #222;
-}
-
 .about {
 	position: fixed;
 	font-family: "Fira Mono", mono;	
@@ -192,7 +175,7 @@ body {
 	height: 80px;
 }
 
-/* Typograph */
+/* Typography */
 
 h1 {
   	letter-spacing: -.08em;
@@ -243,6 +226,23 @@ h4 a:focus {
 	border-bottom: 1px solid black;
 }
 
+#navigation a, div.about {
+	padding: 0;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#navigation a {
+	color: #ffff00;
+}
+
+#navigation li a:hover,
+#navigation li a:focus,
+#navigation li a:active {
+	text-decoration: none;
+	color: #222;
+}
+
 /* Psuedo mobile styles for wide touch devices */
     .touch-device #menu {
         position: fixed;
@@ -284,6 +284,7 @@ h4 a:focus {
 		width: auto;
 		display: none;
 	}
+	
 /* Real mobile styles for smaller screens */
 @media only screen and (max-width: 768px) {
 	body, html{

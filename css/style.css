@@ -132,11 +132,12 @@ body {
 	list-style-type: none;
 }
 
-#navigation li {
+ul #navigation li {
 	padding: 0;
 	margin-bottom: 5px;
 	width: auto;
 	color: #ffff00;
+	display:inline;
 }
 
 .about {

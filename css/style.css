@@ -44,11 +44,40 @@ body {
 	z-index: 16;
 }
 
+#OMLtext {
+	width: 40%;
+	margin-left: -60px;
+	margin-top: -20px;
+	position: relative;
+	z-index: 80;
+}
+
+#OMLtext h3 {
+	font-weight: bold;
+	border: 4px solid #ffff00;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+#OMLtext p {
+	border: 4px solid #ffff00;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+#OMLimg {
+	z-index: 20;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+}
+
 #background-site {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	z-index:1;
+	z-index: 1;
 }
 
 #background-site iframe {
@@ -155,7 +184,7 @@ body {
 
 .session-title {
 	position: fixed;
-	margin: 0px;
+	margin: 1px 0 0 0;
 	z-index: 99;
 }
 

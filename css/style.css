@@ -37,41 +37,48 @@ body {
 	position: fixed;
 }
 
-.horizontal-container {
+.horizontal-container-top {
 	position: relative;
 	width: 100%;
-	height: 50%;
+	height: 70%;
 	z-index: 16;
 }
 
-#OMLtext {
-	width: 40%;
-	margin-left: -60px;
-	margin-top: -20px;
+.horizontal-container-bottom {
 	position: relative;
-	z-index: 80;
+	width: 100%;
+	height: 30%;
+	z-index: 16;
 }
 
-#OMLtext h3 {
+.img {
+	left: -210px;
+	top: -100px;
+	width: 40%;	
+}
+
+.txt {
+	width: 40%;
+	margin-left: -18%;
+	margin-top: -75px;	
+	z-index: 80;
+	overflow: visible;
+}
+
+.txt h3 {
 	font-weight: bold;
 	border: 4px solid #ffff00;
 	padding: 10px;
 	margin-bottom: 40px;
+	font-size: 24px;
 }
 
-#OMLtext p {
+.txt p {
 	border: 4px solid #ffff00;
 	padding: 10px;
 	margin-bottom: 40px;
 }
 
-#OMLimg {
-	z-index: 20;
-	position: fixed;
-	right: 0px;
-	top: 0px;
-	height: 100%;
-}
 
 #background-site {
 	position: absolute;
@@ -103,7 +110,7 @@ body {
 	z-index: 20;
 	position: fixed;
 	right: 30px;
-	top: 30px;
+	top: 35px;
 	width: 360px;
 }
     #logo-touch {
@@ -242,6 +249,11 @@ h4 a:focus {
 #navigation li a:active {
 	text-decoration: none;
 	color: #222;
+}
+
+.session-title h1, 
+.session-title h2 {
+	font-size: 24px;
 }
 
 /* Psuedo mobile styles for wide touch devices */

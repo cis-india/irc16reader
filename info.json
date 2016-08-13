@@ -3,7 +3,7 @@
 	"logo" : "logo.png",
 	"about" : "IRC16Reader",
 	"menu" : {
-		"Home" : "IRC16.html",
+		"#IRC16" : "IRC16.html",
 		"#AFCinema2.0" : "AFCinema2-0.html",
 		"#ArchiveAnarchy" : "ArchiveAnarchy.html",
 		"#DigitalDesires" : "DigitalDesires.html",

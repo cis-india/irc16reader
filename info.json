@@ -1,6 +1,6 @@
 {
 	"title": "IRC16Reader",
-	"logo" : "img/IRC16Reader_Logo_Web.png",
+	"logo" : "logo.png",
 	"about" : "IRC16Reader",
 	"menu" : {
 		"#IRC16" : "IRC16.html",

@@ -105,8 +105,8 @@ body {
 
 #menu {
 	position: fixed;
-	right: 49px;
-	top: 165px;
+	right: 14px;
+	top: 150px;
 	color: #fff;
 	letter-spacing: .01em;
 	z-index:10;
@@ -118,9 +118,9 @@ body {
 #logo {
 	z-index: 20;
 	position: fixed;
-	right: 25px;
-	top: 12px;
-	width: 300px;
+	right: 35px;
+	top: 20px;
+	width: 200px;
 }
     #logo-touch {
         display: none;

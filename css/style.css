@@ -105,8 +105,8 @@ body {
 
 #menu {
 	position: fixed;
-	right: 55px;
-	top: 200px;
+	right: 49px;
+	top: 165px;
 	color: #fff;
 	letter-spacing: .01em;
 	z-index:10;
@@ -118,9 +118,9 @@ body {
 #logo {
 	z-index: 20;
 	position: fixed;
-	right: 30px;
-	top: 35px;
-	width: 360px;
+	right: 25px;
+	top: 12px;
+	width: 300px;
 }
     #logo-touch {
         display: none;
@@ -159,15 +159,15 @@ ul #navigation li {
 .about {
 	position: fixed;
 	font-family: "Fira Mono", mono;	
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 32px;
 	line-height: 19px;
 	z-index: 100;
 	color: #c4c4c4;
 	z-index: 90;
 	max-width: 277px;
-	right: 169px;
-	top: 160px;
+	right: 102px;
+	top: 135px;
 }
 
 .highlight {
@@ -285,6 +285,7 @@ h4 a:focus,
 
 #navigation a {
 	color: #888;
+	font-size: 14px;
 }
 
 #navigation li a:hover,

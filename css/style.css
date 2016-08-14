@@ -54,7 +54,7 @@ body {
 	position: fixed;
 	left: 25px;
 	top: 25px;
-	width: 200px;
+	width: 180px;
 }
     #logo-touch {
         display: none;
@@ -68,13 +68,12 @@ body {
 
 #menu {
 	position: fixed;
-	right: 25px;
-	top: 25px;
+	left: 25px;
+	top: 150px;
 	color: #fff;
 	letter-spacing: .01em;
 	z-index:10;
 	cursor: move;
-	text-align: right;
 	opacity: 0.5;
 }
 
@@ -155,6 +154,11 @@ ul #navigation li {
        margin-top: 80px;
 }
 
+.highlight {
+	background-color: #ffff00;
+	color: #222;
+}
+
 .image {
 	position: fixed;
 	right: 0px;
@@ -187,11 +191,6 @@ ul #navigation li {
 	transition: all .3s linear;
 }
 
-.highlight {
-	background-color: #ffff00;
-	color: #222;
-}
-
 .footer {
 	height: 40px;
 }
@@ -205,17 +204,16 @@ ul #navigation li {
 }
 
 #navigation a {
-	color: #888;
+	color: #222;
 	background-color: #ffff00;
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 12px;
 }
 
 #navigation li a:hover,
 #navigation li a:focus,
 #navigation li a:active {
 	text-decoration: none;
-	color: #222;
+	border-bottom: 1px solid;
 }
 
 h1 {

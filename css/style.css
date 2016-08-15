@@ -158,8 +158,8 @@ ul #navigation li {
 }
 
 .image:hover {
-	filter: contrast(200%);
-	-webkit-filter: contrast(200%);
+	filter: contrast(150%);
+	-webkit-filter: contrast(150%);
 }
 
 .tint {
@@ -181,7 +181,7 @@ ul #navigation li {
 
 .tint:hover:before { 
 	background: rgba(255,255,0,0);
-	transition: all .3s linear;
+	transition: all .2s linear;
 }
 
 .footer {
